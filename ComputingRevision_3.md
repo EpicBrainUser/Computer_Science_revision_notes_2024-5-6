@@ -1,4 +1,4 @@
-**0T1:**
+**T1:**
 
 - **WANs**  
   - Stands for Wide Area Network  
