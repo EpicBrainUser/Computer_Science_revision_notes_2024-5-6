@@ -28,8 +28,8 @@
     - The TLD server points the recursor to the Authoritative DNS server for archlinux.org.  
     - The Authoritative DNS server provides the correct IP address for archlinux.org.  
     - The recursor sends the IP address back to the browser.  
-    - The browser uses the IP address to connect to the BBC server.  
-    - The browser requests the webpage, and the BBC server sends the webpage’s content.  
+    - The browser uses the IP address to connect to the Arch Linux nginx web server.  
+    - The browser requests the webpage, and the Arch Linux nginx web server sends the webpage’s content.  
     - The website is displayed for the user, using the domain name instead of the IP address.
 
 - **MAC Addresses and NICs:**  
