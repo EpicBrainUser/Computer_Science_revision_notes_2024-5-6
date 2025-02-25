@@ -21,13 +21,13 @@
 - **DNS:**  
   - A system of servers, and other resources, used to link a URL typed into a browser with an IP address understood by routers.  
   - How it works:  
-    - The user types "www.bbc.co.uk" into the web browser.  
+    - The user types "archlinux.org" into the web browser.  
     - The browser checks if the IP address for the domain is already stored in its DNS cache.  
-    - If not found, the browser sends a request to a DNS resolver (usually provided by the ISP).  
-    - The DNS resolver asks a root DNS server to locate the TLD (Top Level Domain) server for ".co.uk".  
-    - The TLD server points the resolver to the Authoritative DNS server for bbc.co.uk.  
-    - The Authoritative DNS server provides the correct IP address for bbc.co.uk.  
-    - The resolver sends the IP address back to the browser.  
+    - If not found, the browser sends a request to a DNS recursor (usually provided by the ISP).  
+    - The DNS recursor asks a root DNS server to locate the TLD (Top Level Domain) server for ".co.uk".  
+    - The TLD server points the recursor to the Authoritative DNS server for archlinux.org.  
+    - The Authoritative DNS server provides the correct IP address for archlinux.org.  
+    - The recursor sends the IP address back to the browser.  
     - The browser uses the IP address to connect to the BBC server.  
     - The browser requests the webpage, and the BBC server sends the webpage’s content.  
     - The website is displayed for the user, using the domain name instead of the IP address.
